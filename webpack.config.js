@@ -62,6 +62,8 @@ module.exports = {
         ]
     },
     resolve: {
+        extensions: ['.ts', '.tsx','.js','.jsx'] ,
+        modules: ['src' ,'node_modules'],
         alias: {
             'vue$': 'vue/dist/vue.common.js'
         }
