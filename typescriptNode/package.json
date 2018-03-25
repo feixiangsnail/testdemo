@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@types/node": "^9.6.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^4.0.1",
+    "typescript": "^2.7.2"
+  },
+  "scripts": {
+    "start": "gulp watch"
+  },
+  "name": "typescriptnode",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
