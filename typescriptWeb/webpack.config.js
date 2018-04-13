@@ -10,7 +10,7 @@ var webpack = require('webpack')
     ,OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
 module.exports = {
-    entry:'./src/index.ts',
+    entry:'./src/Main.ts',
     output:{
         path:BUILD_PATH,
         filename:'assets/bundle.js'
@@ -69,7 +69,7 @@ module.exports = {
         }
     },
     plugins: [
-        new OpenBrowserPlugin({ url: 'http://localhost:8080' }),
+        new OpenBrowserPlugin({ url: 'http://localhost:8087' }),
         new HtmlwebpackPlugin({
             inject:true,
             hash:true,

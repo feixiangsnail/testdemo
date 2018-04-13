@@ -18,7 +18,7 @@ function Config(){
         files[i].changeOrigin = true;
     }
     return {
-        port: 8080,
+        port: 8087,
         disableHostCheck:true,
         historyApiFallback: true,
         hot: true,
